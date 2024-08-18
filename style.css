@@ -52,7 +52,7 @@ nav ul li{
     width: 80%;
     border-radius: 12px;
     padding: 34px;
-    background-image: url('/spotify/girl.jpeg');
+    background-image: url('/girl.jpeg');
     background-size: cover; /* Scale the image to cover the container */
     background-position: center; /* Center the image */
 }
