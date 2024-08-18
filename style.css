@@ -1,48 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
-body{
+
+body {
     background-color: rgb(236, 231, 224);
+    font-size: 16px; /* Base font size */
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Added for better control over element sizing */
 }
 
-
-nav{
+nav {
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
-nav ul{
-    display:flex;
+nav ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     align-items: center;
+    justify-content: space-between; /* Distribute space evenly */
     list-style-type: none;
     height: 65px;
     background-color: black;
     color: white;
+    padding: 0 10px; /* Add padding to ensure space around content */
 }
 
-nav ul li{
+nav ul li {
     padding: 0 12px;
 }
 
-.brand img{
+.brand img {
     width: 44px;
     padding: 0 8px;
 }
 
-.brand{
+.brand {
     display: flex;
     align-items: center;
     font-weight: bolder;
     font-size: 1.5rem;
-    
 }
 
-.container{
+.container {
     min-height: 61vh;
     background-color: black;
     color: white;
@@ -55,10 +59,11 @@ nav ul li{
     background-image: url('girl.jpeg');
     background-size: cover; /* Scale the image to cover the container */
     background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-attachment: fixed; /* Optional: Adds a parallax effect */
 }
 
-
-.bottom{
+.bottom {
     position: sticky;
     background-color: rgb(36, 35, 35);
     color: white;
@@ -68,29 +73,30 @@ nav ul li{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
-/* bottom */
-
-#myprogressbar{
+#myprogressbar {
     width: 80vw;
     cursor: pointer;
 }
 
-.icons{
+.icons {
     margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
-.icons i{
+.icons i {
     cursor: pointer;
 }
 
-.songitem{
-    height:50px;
+.songitem {
+    height: 50px;
     display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     background-color: white;
-    border-radius:30px;
+    border-radius: 30px;
     width: 87%;
     color: black;
     margin: 12px 0;
@@ -98,494 +104,117 @@ nav ul li{
     align-items: center;
 }
 
-.songitem img{
+.songitem img {
     width: 45px;
     height: 43px;
-    margin: 0 23px ;
+    margin: 0 23px;
     border-radius: 34px;
 }
 
-.timestamp{
+.timestamp {
     padding: 0 23px;
 }
 
-.timestamp i{
+.timestamp i {
     cursor: pointer;
 }
 
-
-.songitemContainer{
+.songitemContainer {
     margin-top: 40px;
-    
 }
 
-.songInfo{
+.songInfo {
     position: absolute;
     left: 9vw;
     font-family: "Varela Round", sans-serif;
 }
 
-.songInfo img{
+.songInfo img {
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+/* Mobile Devices (max-width: 600px) */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .brand {
+        font-size: 1.2rem;
+        justify-content: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+        margin: 10px 0;
+        min-height: auto;
+    }
+
+    .songitem {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+    }
+
+    .songitem img {
+        margin: 10px 0;
+    }
+
+    .songInfo {
+        left: 5vw;
+        text-align: center;
+    }
+
+    #myprogressbar {
+        width: 95vw;
+    }
+}
+
+/* Tablet Devices (max-width: 900px) */
+@media (max-width: 900px) {
+    nav ul {
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .brand {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        width: 90%;
+        padding: 25px;
+        margin: 15px auto;
+    }
+
+    .songitem {
+        height: auto;
+        padding: 10px;
+    }
+
+    .songInfo {
+        left: 7vw;
+    }
+}
+
+/* Desktop Devices (min-width: 901px) */
+@media (min-width: 901px) {
+    .container {
+        width: 70%;
+    }
+
+    .brand {
+        font-size: 1.5rem;
+    }
+
+    #myprogressbar {
+        width: 80vw;
+    }
+
+    .songInfo {
+        left: 9vw;
+    }
+}
