@@ -10,8 +10,8 @@ let songItems = Array.from(document.getElementsByClassName('songitem'));
 
 let songs = [
     {songName: "Shedur Laal Chadhayo(Aarti)", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Aarambh Hai Prachand", filePath: "Rythmix/songs/2.mp3", coverPath: "Rythmix/covers/2.jpg"},
-    {songName: "Mangal Bhavan Amangal Haari", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Aarambh Hai Prachand", filePath: "/Rythmix/songs/2.mp3", coverPath: "/Rythmix/covers/2.jpg"},
+    {songName: "Mangal Bhavan Amangal Haari", filePath: "/Rythmix/songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Aathma Raama", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
     {songName: "Shiv tandav Stotram", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "Salam-e-ishq", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
