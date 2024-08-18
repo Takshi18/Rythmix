@@ -9,7 +9,7 @@ let masterSongName = document.getElementById('masterSongName')
 let songItems = Array.from(document.getElementsByClassName('songitem'));
 
 let songs = [
-    {songName: "Shedur Laal Chadhayo(Aarti)", filePath: "/songs/1.mp3", coverPath: "/covers/1.jpg"},
+    {songName: "Shedur Laal Chadhayo(Aarti)", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Aarambh Hai Prachand", filePath: "/songs/2.mp3", coverPath: "/covers/2.jpg"},
     {songName: "Mangal Bhavan Amangal Haari", filePath: "/songs/3.mp3", coverPath: "/covers/3.jpg"},
     {songName: "Aathma Raama", filePath: "/songs/4.mp3", coverPath: "/covers/4.jpg"},
